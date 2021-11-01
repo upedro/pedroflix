@@ -8,9 +8,9 @@ export const Container = styled.div`
     max-width: 1400px;
     padding: 1rem 5rem 2rem 5rem;
     flex: 1;
-    @media (max-width: 400px)
+    @media (max-width: 500px)
     {
-      padding: .3rem .5rem .2rem .5rem;
+      padding: .1rem .1rem .1rem .1rem;
     }
     
 `
@@ -23,11 +23,10 @@ export const SearchBox = styled.div`
   gap:2rem ;
   padding: 2rem;
   justify-content: center;  
-  @media (max-width: 400px)
+  @media (max-width: 500px)
     {
-      padding: .2rem;
-      flex-direction: column;
-      align-items: center;
+      padding: .9rem;
+
     }
   
 
@@ -52,7 +51,7 @@ export const Box = styled.div`
     flex-wrap: wrap;
     align-items: center;
 
-    @media (max-width: 300px)
+    @media (max-width: 500px)
     {
       
     }
