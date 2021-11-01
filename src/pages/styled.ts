@@ -23,6 +23,12 @@ export const SearchBox = styled.div`
   gap:2rem ;
   padding: 2rem;
   justify-content: center;  
+  @media (max-width: 400px)
+    {
+      padding: .2rem;
+      flex-direction: column;
+      align-items: center;
+    }
   
 
 `
@@ -45,6 +51,11 @@ export const Box = styled.div`
     flex-direction: row;
     flex-wrap: wrap;
     align-items: center;
+
+    @media (max-width: 300px)
+    {
+      
+    }
 
 `
 
