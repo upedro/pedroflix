@@ -1,5 +1,7 @@
 <h1 align="center">Projeto: Pedroflix</h1>
 <h3 align="center">Site responsivo feito com React para busca de filmes e séries.</h3>
+<h3 align="center">Acesse: https://pedro-flix.netlify.app/</h3>
+
 
 - ☑  **Busca de filmes e séries por nome, tipo e por artista.**
 - ☑  **Exibição de notas**
